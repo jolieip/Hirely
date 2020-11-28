@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F8E7482571E3C500252D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7472571E3C500252D9E /* AppDelegate.swift */; };
+		43F8E74A2571E3C500252D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7492571E3C500252D9E /* SceneDelegate.swift */; };
+		43F8E74C2571E3C500252D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E74B2571E3C500252D9E /* ContentView.swift */; };
+		43F8E74E2571E3C800252D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F8E74D2571E3C800252D9E /* Assets.xcassets */; };
+		43F8E7512571E3C800252D9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F8E7502571E3C800252D9E /* Preview Assets.xcassets */; };
+		43F8E7542571E3C800252D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F8E7522571E3C800252D9E /* LaunchScreen.storyboard */; };
+		43F8E75F2571E3C900252D9E /* HirelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E75E2571E3C900252D9E /* HirelyTests.swift */; };
+		43F8E76A2571E3C900252D9E /* HirelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7692571E3C900252D9E /* HirelyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F8E75B2571E3C900252D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F8E73C2571E3C500252D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F8E7432571E3C500252D9E;
+			remoteInfo = Hirely;
+		};
+		43F8E7662571E3C900252D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F8E73C2571E3C500252D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F8E7432571E3C500252D9E;
+			remoteInfo = Hirely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43F8E7442571E3C500252D9E /* Hirely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hirely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F8E7472571E3C500252D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F8E7492571E3C500252D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43F8E74B2571E3C500252D9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43F8E74D2571E3C800252D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F8E7502571E3C800252D9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43F8E7532571E3C800252D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F8E7552571E3C800252D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F8E75A2571E3C900252D9E /* HirelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HirelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F8E75E2571E3C900252D9E /* HirelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HirelyTests.swift; sourceTree = "<group>"; };
+		43F8E7602571E3C900252D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F8E7652571E3C900252D9E /* HirelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HirelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F8E7692571E3C900252D9E /* HirelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HirelyUITests.swift; sourceTree = "<group>"; };
+		43F8E76B2571E3C900252D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F8E7412571E3C500252D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7572571E3C900252D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7622571E3C900252D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F8E73B2571E3C500252D9E = {
+			isa = PBXGroup;
+			children = (
+				43F8E7462571E3C500252D9E /* Hirely */,
+				43F8E75D2571E3C900252D9E /* HirelyTests */,
+				43F8E7682571E3C900252D9E /* HirelyUITests */,
+				43F8E7452571E3C500252D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F8E7452571E3C500252D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F8E7442571E3C500252D9E /* Hirely.app */,
+				43F8E75A2571E3C900252D9E /* HirelyTests.xctest */,
+				43F8E7652571E3C900252D9E /* HirelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F8E7462571E3C500252D9E /* Hirely */ = {
+			isa = PBXGroup;
+			children = (
+				43F8E7472571E3C500252D9E /* AppDelegate.swift */,
+				43F8E7492571E3C500252D9E /* SceneDelegate.swift */,
+				43F8E74B2571E3C500252D9E /* ContentView.swift */,
+				43F8E74D2571E3C800252D9E /* Assets.xcassets */,
+				43F8E7522571E3C800252D9E /* LaunchScreen.storyboard */,
+				43F8E7552571E3C800252D9E /* Info.plist */,
+				43F8E74F2571E3C800252D9E /* Preview Content */,
+			);
+			path = Hirely;
+			sourceTree = "<group>";
+		};
+		43F8E74F2571E3C800252D9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43F8E7502571E3C800252D9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43F8E75D2571E3C900252D9E /* HirelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F8E75E2571E3C900252D9E /* HirelyTests.swift */,
+				43F8E7602571E3C900252D9E /* Info.plist */,
+			);
+			path = HirelyTests;
+			sourceTree = "<group>";
+		};
+		43F8E7682571E3C900252D9E /* HirelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43F8E7692571E3C900252D9E /* HirelyUITests.swift */,
+				43F8E76B2571E3C900252D9E /* Info.plist */,
+			);
+			path = HirelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F8E7432571E3C500252D9E /* Hirely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F8E76E2571E3C900252D9E /* Build configuration list for PBXNativeTarget "Hirely" */;
+			buildPhases = (
+				43F8E7402571E3C500252D9E /* Sources */,
+				43F8E7412571E3C500252D9E /* Frameworks */,
+				43F8E7422571E3C500252D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hirely;
+			productName = Hirely;
+			productReference = 43F8E7442571E3C500252D9E /* Hirely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F8E7592571E3C900252D9E /* HirelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F8E7712571E3C900252D9E /* Build configuration list for PBXNativeTarget "HirelyTests" */;
+			buildPhases = (
+				43F8E7562571E3C900252D9E /* Sources */,
+				43F8E7572571E3C900252D9E /* Frameworks */,
+				43F8E7582571E3C900252D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F8E75C2571E3C900252D9E /* PBXTargetDependency */,
+			);
+			name = HirelyTests;
+			productName = HirelyTests;
+			productReference = 43F8E75A2571E3C900252D9E /* HirelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43F8E7642571E3C900252D9E /* HirelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F8E7742571E3C900252D9E /* Build configuration list for PBXNativeTarget "HirelyUITests" */;
+			buildPhases = (
+				43F8E7612571E3C900252D9E /* Sources */,
+				43F8E7622571E3C900252D9E /* Frameworks */,
+				43F8E7632571E3C900252D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F8E7672571E3C900252D9E /* PBXTargetDependency */,
+			);
+			name = HirelyUITests;
+			productName = HirelyUITests;
+			productReference = 43F8E7652571E3C900252D9E /* HirelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F8E73C2571E3C500252D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					43F8E7432571E3C500252D9E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					43F8E7592571E3C900252D9E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 43F8E7432571E3C500252D9E;
+					};
+					43F8E7642571E3C900252D9E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 43F8E7432571E3C500252D9E;
+					};
+				};
+			};
+			buildConfigurationList = 43F8E73F2571E3C500252D9E /* Build configuration list for PBXProject "Hirely" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F8E73B2571E3C500252D9E;
+			productRefGroup = 43F8E7452571E3C500252D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F8E7432571E3C500252D9E /* Hirely */,
+				43F8E7592571E3C900252D9E /* HirelyTests */,
+				43F8E7642571E3C900252D9E /* HirelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F8E7422571E3C500252D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8E7542571E3C800252D9E /* LaunchScreen.storyboard in Resources */,
+				43F8E7512571E3C800252D9E /* Preview Assets.xcassets in Resources */,
+				43F8E74E2571E3C800252D9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7582571E3C900252D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7632571E3C900252D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F8E7402571E3C500252D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8E7482571E3C500252D9E /* AppDelegate.swift in Sources */,
+				43F8E74A2571E3C500252D9E /* SceneDelegate.swift in Sources */,
+				43F8E74C2571E3C500252D9E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7562571E3C900252D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8E75F2571E3C900252D9E /* HirelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8E7612571E3C900252D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8E76A2571E3C900252D9E /* HirelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F8E75C2571E3C900252D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F8E7432571E3C500252D9E /* Hirely */;
+			targetProxy = 43F8E75B2571E3C900252D9E /* PBXContainerItemProxy */;
+		};
+		43F8E7672571E3C900252D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F8E7432571E3C500252D9E /* Hirely */;
+			targetProxy = 43F8E7662571E3C900252D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F8E7522571E3C800252D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F8E7532571E3C800252D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F8E76C2571E3C900252D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F8E76D2571E3C900252D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F8E76F2571E3C900252D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hirely/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Hirely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.Hirely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F8E7702571E3C900252D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hirely/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Hirely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.Hirely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43F8E7722571E3C900252D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HirelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.HirelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hirely.app/Hirely";
+			};
+			name = Debug;
+		};
+		43F8E7732571E3C900252D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HirelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.HirelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hirely.app/Hirely";
+			};
+			name = Release;
+		};
+		43F8E7752571E3C900252D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HirelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.HirelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hirely;
+			};
+			name = Debug;
+		};
+		43F8E7762571E3C900252D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HirelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HandyFriends.HirelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hirely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F8E73F2571E3C500252D9E /* Build configuration list for PBXProject "Hirely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8E76C2571E3C900252D9E /* Debug */,
+				43F8E76D2571E3C900252D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F8E76E2571E3C900252D9E /* Build configuration list for PBXNativeTarget "Hirely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8E76F2571E3C900252D9E /* Debug */,
+				43F8E7702571E3C900252D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F8E7712571E3C900252D9E /* Build configuration list for PBXNativeTarget "HirelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8E7722571E3C900252D9E /* Debug */,
+				43F8E7732571E3C900252D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F8E7742571E3C900252D9E /* Build configuration list for PBXNativeTarget "HirelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8E7752571E3C900252D9E /* Debug */,
+				43F8E7762571E3C900252D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F8E73C2571E3C500252D9E /* Project object */;
+}
