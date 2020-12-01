@@ -15,6 +15,11 @@
 		43F8E7542571E3C800252D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F8E7522571E3C800252D9E /* LaunchScreen.storyboard */; };
 		43F8E75F2571E3C900252D9E /* HirelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E75E2571E3C900252D9E /* HirelyTests.swift */; };
 		43F8E76A2571E3C900252D9E /* HirelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7692571E3C900252D9E /* HirelyUITests.swift */; };
+		43F8E77B2571E40100252D9E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E77A2571E40100252D9E /* SettingsView.swift */; };
+		43F8E7802571E42500252D9E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E77F2571E42500252D9E /* TaskView.swift */; };
+		43F8E7852571E50000252D9E /* ReusableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7842571E50000252D9E /* ReusableViews.swift */; };
+		43F8E78A2571E52200252D9E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7892571E52200252D9E /* DiscoverView.swift */; };
+		43F8E78F25720E1600252D9E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E78E25720E1600252D9E /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		43F8E7652571E3C900252D9E /* HirelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HirelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F8E7692571E3C900252D9E /* HirelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HirelyUITests.swift; sourceTree = "<group>"; };
 		43F8E76B2571E3C900252D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F8E77A2571E40100252D9E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		43F8E77F2571E42500252D9E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		43F8E7842571E50000252D9E /* ReusableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViews.swift; sourceTree = "<group>"; };
+		43F8E7892571E52200252D9E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		43F8E78E25720E1600252D9E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				43F8E7522571E3C800252D9E /* LaunchScreen.storyboard */,
 				43F8E7552571E3C800252D9E /* Info.plist */,
 				43F8E74F2571E3C800252D9E /* Preview Content */,
+				43F8E77A2571E40100252D9E /* SettingsView.swift */,
+				43F8E77F2571E42500252D9E /* TaskView.swift */,
+				43F8E7842571E50000252D9E /* ReusableViews.swift */,
+				43F8E7892571E52200252D9E /* DiscoverView.swift */,
+				43F8E78E25720E1600252D9E /* Cache.swift */,
 			);
 			path = Hirely;
 			sourceTree = "<group>";
@@ -267,7 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43F8E7482571E3C500252D9E /* AppDelegate.swift in Sources */,
+				43F8E7852571E50000252D9E /* ReusableViews.swift in Sources */,
+				43F8E78F25720E1600252D9E /* Cache.swift in Sources */,
+				43F8E77B2571E40100252D9E /* SettingsView.swift in Sources */,
 				43F8E74A2571E3C500252D9E /* SceneDelegate.swift in Sources */,
+				43F8E78A2571E52200252D9E /* DiscoverView.swift in Sources */,
+				43F8E7802571E42500252D9E /* TaskView.swift in Sources */,
 				43F8E74C2571E3C500252D9E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
