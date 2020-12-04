@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43AEEB1925760DDD000700E4 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AEEB1825760DDD000700E4 /* SignUp.swift */; };
 		43F8E7482571E3C500252D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7472571E3C500252D9E /* AppDelegate.swift */; };
 		43F8E74A2571E3C500252D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E7492571E3C500252D9E /* SceneDelegate.swift */; };
 		43F8E74C2571E3C500252D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8E74B2571E3C500252D9E /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43AEEB1825760DDD000700E4 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		43F8E7442571E3C500252D9E /* Hirely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hirely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F8E7472571E3C500252D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43F8E7492571E3C500252D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				43F8E7842571E50000252D9E /* ReusableViews.swift */,
 				43F8E7892571E52200252D9E /* DiscoverView.swift */,
 				43F8E78E25720E1600252D9E /* Cache.swift */,
+				43AEEB1825760DDD000700E4 /* SignUp.swift */,
 			);
 			path = Hirely;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				43F8E7482571E3C500252D9E /* AppDelegate.swift in Sources */,
 				43F8E7852571E50000252D9E /* ReusableViews.swift in Sources */,
+				43AEEB1925760DDD000700E4 /* SignUp.swift in Sources */,
 				43F8E78F25720E1600252D9E /* Cache.swift in Sources */,
 				43F8E77B2571E40100252D9E /* SettingsView.swift in Sources */,
 				43F8E74A2571E3C500252D9E /* SceneDelegate.swift in Sources */,

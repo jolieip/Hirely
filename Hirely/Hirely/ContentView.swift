@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
    @State var taskname: String
+   @State var fullname: String
+   @State var email: String
     var body: some View {
         TabView{
             
@@ -27,6 +29,12 @@ struct ContentView: View {
                 }.tag(1)
                            
             SettingsView()
+                .tabItem {
+                    Image(systemName: "person.circle")
+                    Text("Settings")
+                }.tag(2)
+            
+            SignUpView(fullname: $fullname, email: $email )
                 .tabItem {
                     Image(systemName: "person.circle")
                     Text("Settings")
